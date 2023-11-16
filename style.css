@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Josefin+Sans:ital,wght@1,300&family=Lora&family=Montserrat:wght@100&display=swap');
+
+body {
+    background-color:#190B22;
+    text-align: end;
+}
+#header {
+    padding: 10px;
+    background-color: #190B22;
+    margin: 20px;
+}
+#header img {
+    width: 50%;
+    max-width: 100%;
+}
+.centered-planets {
+    display: flex;
+}
+.planet {
+    display: flex;
+    align-items: center;
+    margin:20px;
+    padding: 20px;
+}
+.planet img {
+    margin: 50px; 
+}
+#Saturnus {
+    position: relative;
+    
+}
+#Saturnus img {
+    position: relative;
+}
+.saturn-rings {
+    position: absolute;
+    top: 50;
+    left: 0;
+}
+#jupiter {
+    width: 230px;
+}
+
+.overlay{
+    display: none;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color:  #0C164D;
+    color: white;
+    bottom: 50%; 
+    width: 50%; 
+    height:50%;
+ 
+}
+#planet-name{
+    font-size: 60px;
+    font-weight: 400;
+    margin:auto;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-family: 'Secular One', sans-serif;
+}
+#planet-desc{
+    line-height: 30.6px; 
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#planet-latin-name {
+    text-transform: uppercase;
+    color: #FFD029;
+    font-family: 'Lora', serif;
+    font-size:20px;
+}
+.overlay-content {
+    text-align: left;
+}
+
+.more-info {
+    display: flex;
+    flex-direction: column;
+}
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+}
+.label-data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.label {
+   gap: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+}
+.data {
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width:100%;
+    word-wrap: break-word;
+}
+.footer-moon{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+}
+footer #planet-moons{
+    text-transform: lowercase;
+    font-weight: normal;
+    width:650px;
+} 
+hr{
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
